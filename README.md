@@ -13,7 +13,7 @@ All dependency can be downloaded [here](http://www.quartz-scheduler.org/download
 Cron expression is a String of 6 or 7 fields separated by spaces, where each field corresponds in this order (Second Minute Hour DayOfTheMonth Month DayOfTheWeek Year).
 Ex: _'– 0 0 12 * * ?'_ This expression means: execute 12 PM every days. Documentations about cron expression [here](http://www.quartz-scheduler.org/documentation/quartz-1.x/tutorials/crontrigger).
 
-3. **How it works?**
+**How it works?**
 
 ```
 // Define the job and tie it to our HelloJob class
@@ -52,11 +52,11 @@ sched.start();
 sched.shutdown(true);
 ```
 
-System output:
+**System output**
 
 ```
 Hello World! - Sat Jan 31 16:25:00 BRST 2015
 ```
 
-Referência:
+reference:
 [quartz-scheduler.org](http://www.quartz-scheduler.org/generated/2.2.1/html/qs-all/#page/Quartz_Scheduler_Documentation_Set%2Fto-quartz_scheduler_online_documentation_library.html%23)
